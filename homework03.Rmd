@@ -69,7 +69,7 @@ canada_fixed1 %>%
     a. one link to a chart or an image and 
     b. at least one itemized or enumerated list.
     
-  Everybody loves watching movies or playing games and these have data tied to them like movie rating, critic rating, game ratings. As I am a gamer myself, I enjoy reading statistics collected and analyzed by other people. https://www.statista.com/chart/26122/estimated-lifetime-sales-of-current-gen-consoles-by-market/
+Everybody loves watching movies or playing games and these have data tied to them like movie rating, critic rating, game ratings. As I am a gamer myself, I enjoy reading statistics collected and analyzed by other people. https://www.statista.com/chart/26122/estimated-lifetime-sales-of-current-gen-consoles-by-market/
 This is one of the charts that I saw before while researching what console to get for myself.
 I think I would consider this as data science since people would gather data from gamers all around the world and analyze it to produce these charts and spread among gamers like me. An itemized list that I found while researching about console is a list for the sales of all consoles that have been manufactured including old consoles that had stopped maunfacturing as well. The link is https://www.vgchartz.com/charts/platform_totals/Hardware.php/ .I think this is the same as movie ratings as well. These two activites as super common activities that people enjoy and there are so many charts or statistics or lists of ranking exists out there in the internet. All these charts exists is due to Data Science which I think is an important subject to learn and not underestimated. Major companies like Meta and Google rely on Data Science to alter their business to make sure their future are in a good place.
 
