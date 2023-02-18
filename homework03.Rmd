@@ -23,10 +23,13 @@ the number of pull requests you accepted, and the github repository from which y
     
 # Team Member: On Wave Tiong
 # Repository link of teammate: https://github.com/Towave28/DS202-Homework
-# number of pull/pushes: 1
+# number of pull/pushes: 2
     
     
 # 3 tips + for working with GitHub:   
+1. Push and pull often.
+2. Write comment well while commiting and pushing projects
+3. Write well written README file as well so that projects as understood easily.
     
     
     
@@ -66,7 +69,9 @@ canada_fixed1 %>%
     a. one link to a chart or an image and 
     b. at least one itemized or enumerated list.
     
-    
+  Everybody loves watching movies or playing games and these have data tied to them like movie rating, critic rating, game ratings. As I am a gamer myself, I enjoy reading statistics collected and analyzed by other people. https://www.statista.com/chart/26122/estimated-lifetime-sales-of-current-gen-consoles-by-market/
+This is one of the charts that I saw before while researching what console to get for myself.
+I think I would consider this as data science since people would gather data from gamers all around the world and analyze it to produce these charts and spread among gamers like me. An itemized list that I found while researching about console is a list for the sales of all consoles that have been manufactured including old consoles that had stopped maunfacturing as well. The link is https://www.vgchartz.com/charts/platform_totals/Hardware.php/ .I think this is the same as movie ratings as well. These two activites as super common activities that people enjoy and there are so many charts or statistics or lists of ranking exists out there in the internet. All these charts exists is due to Data Science which I think is an important subject to learn and not underestimated. Major companies like Meta and Google rely on Data Science to alter their business to make sure their future are in a good place.
 
 Note: your submission is supposed to be fully reproducible, i.e. the TA and I will 'knit' your submission in RStudio. Including the link to the image is the tricky part here. Make sure that you don't use any file structure that depends on your computing environment.
 
