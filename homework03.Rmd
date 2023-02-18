@@ -57,7 +57,7 @@ lines(y = Australia$gdpPercap, x = Australia$lifeExp)
 canada_fixed1 %>%
   ggplot(aes(x = lifeExp, y = gdpPercap, colour=country)) + geom_line() +
   geom_line(data = life5060 %>% 
-              filter(country %in% c("United States", "Australia","Mexico")))
+              filter(country %in% c("United States", "Australia")))
 
 
 ```
