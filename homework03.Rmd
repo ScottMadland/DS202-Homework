@@ -1,6 +1,6 @@
 ---
 title: 'Homework 3'
-author: "Scott Madland"
+author: "Scott Madland, On Wave Tiong"
 date: "2/10/2022"
 output: html_document
 ---
@@ -21,13 +21,15 @@ the number of successful pull requests you made, and the github repository to wh
 the number of pull requests you accepted, and the github repository from which you accepted.  
     c. Write down a list with at least 3 tips of how to make working with git/github easier  
     
-# Team Member: On Wave Tiong
-# Repository link of teammate: https://github.com/Towave28/DS202-Homework
-# number of pull/pushes: 1
+# Team Members: On Wave Tiong, Scott Madland
+# Repository link of teammate: https://github.com/Towave28/DS202-Homework , https://github.com/ScottMadland/DS202-Homework
+# number of pull/pushes: 3
     
     
 # 3 tips + for working with GitHub:   
-    
+    1. Make sure to update your repository for new commits
+    2. Don't forget to except pulls/pushes manually
+    3. Always communicate what changes you are making with messages
     
     
 2. Generate the graph of LifExp vs. gdpPercap for US, Canada (fixed data) and Australia by RMarkdown based on the data set "gapminder-5060", like what we did in the class.  
@@ -65,8 +67,19 @@ canada_fixed1 %>%
 3. Write a paragraph (~200 words) describing an example of what you consider data science. Write your paragraph in R Markdown. Include at least 
     a. one link to a chart or an image and 
     b. at least one itemized or enumerated list.
-    
-    
+
+What is Data Science? 
+  - Looking at mass sets of data 
+  - Cleaning the data 
+  - Finding trends/patters
+  - Generating graphs/charts 
+  - Help make decisions from data 
+  
+Image: https://thedatascientist.com/data-science-considered-own-discipline/
+  - should be at the very top of the webpage
+  
+Data science is all about making sense out of mass amounts of data. There is tons of information that you could potentially gain from just mass amounts of data. The hard part is getting rid of all the data you don't want and looking for the correct trends. The thing that is cool about data science is that it is a very unique process and is different almost every time that you do it. That is what makes it a challenging field and requires for adaptable workers. An example of data science could be for target. A data scientist could use their sales data to find products that are the least profitable if they are looking to cut down lines. Also, other important product manufacturing decisions could be made for target with the help of a data scientist. 
+
 
 Note: your submission is supposed to be fully reproducible, i.e. the TA and I will 'knit' your submission in RStudio. Including the link to the image is the tricky part here. Make sure that you don't use any file structure that depends on your computing environment.
 
