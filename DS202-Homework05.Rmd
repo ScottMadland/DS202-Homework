@@ -81,12 +81,15 @@ Wave's Question:
 ## Submission 
 
 
-Link to github repo: 
+Link to github repo: https://github.com/ScottMadland/DS202-Homework
 
 
 
 Paragraph commenting on workflow: 
 
-
+Github and Rstudio allow us to seamlessly work with many different kinds of files at the exact same time 
+other people are as well. It makes it very easy for group work on any of the homework assignments for this 
+course. A couple emails and github messages and before you know it a beautiful Rmarkdown and HTML document 
+are created. Both of the interfaces work very well together and allow for easy collaboration. Pushing and pulling allows us to make changes quickly and often. My partner and I are both looking forward to continuing to use both of these platforms to complete assignments for the rest of this course and throughout our careers. 
 
 
