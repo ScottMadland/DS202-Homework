@@ -16,12 +16,18 @@ library(ggplot2)
 
 1. What is the overall number of chocolate bars rated? 
 ```{r}
+choco <- read.csv("https://ds202-at-isu.github.io/labs/data/choco.csv")
+summary(choco)
 
+# 1852 total chocolate bars rated in the data set 
 
 ```
 
 2. How does the number of ratings depend on the year? Draw a bar chart of the number of reports. 
 ```{r}
+
+ggplot(data = choco, aes(x=Review.Date , y=Rating)) + 
+  geom_bar(stat = 'identity')
 
 
 ```
@@ -52,9 +58,14 @@ For each of the questions below provide at least one graphic as a basis for your
 
 ## Your Own Question
 
-Scott's Question: 
-```{r}
+Scott's Question: Which cocoa percentage results in the highest ratings? Use a bar chart to display the comparison.  
 
+
+```{r}
+ggplot(data = choco, aes(x=Cocoa.Pct , y=Rating)) + 
+  geom_bar(stat = 'identity')
+
+# Clearly somewhere close to 70% is the ideal cocoa percentage for achieving the highest rating on average 
 
 ```
 
