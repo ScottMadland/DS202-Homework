@@ -39,22 +39,31 @@ For each of the questions below provide at least one graphic as a basis for your
 
 1. How are ratings distributed? Draw a histogram of ratings and describe it. Don’t forget to mention outliers, if there are any.
 ```{r}
-
+ggplot(choco , aes(x = Rating)) + geom_histogram(bins = 12)
 
 ```
+
+
+The ratings are the highest at around 2.75 and 3.75. The outlier seems to be the rating 5.
 
 2. Do ratings depend on the cocoa percentage of a chocolate bar?
 ```{r}
-
+ggplot(data =choco ,aes(x = Cocoa.Pct , y= Rating)) + geom_point() + geom_smooth(method=lm, se=FALSE)
 
 ```
+
+
+It does not seems like the rating depends on the cocoa percentage of the chocolate bar.
 
 3. How do ratings compare across different company locations? Focus on the three locations with the most ratings:
 ```{r}
-
+fChoco<-dplyr :: filter (choco, Company.Location %in% c("U.S.A.", "France","Canada"))
+ggplot(data =fChoco ,aes(x=Rating,fill= Company.Location)) +geom_bar(position = "dodge")
 
 ```
 
+
+It seems that the highest rating in USA is about 3.75, the highest in France is about 3.75 as well, and in Canada is also 3.25.
 
 ## Your Own Question
 
@@ -70,18 +79,22 @@ ggplot(data = choco, aes(x=Cocoa.Pct , y=Rating)) +
 ```
 
 
-Wave's Question: 
+Wave's Question: How high the cocoa percentage in the chocolate bar is the most commonly used in the USA
 ```{r}
-
-
+UChoco<-dplyr :: filter (choco, Company.Location %in% c("U.S.A."))
+ggplot(data =UChoco ,aes(x=Cocoa.Pct,fill= Company.Location)) +geom_bar()
 ```
 
+
+It seems that 70% cocoa percentage is most commonly used by the USA to make chocolate bars
 
 
 ## Submission 
 
 
 Link to github repo: https://github.com/ScottMadland/DS202-Homework
+
+https://github.com/Towave28/DS202-Homework
 
 
 
